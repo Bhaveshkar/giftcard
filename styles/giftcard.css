@@ -1,0 +1,70 @@
+body{
+    font-family: 'Happy Monkey', system-ui;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #a2d3ff;
+    color: #ffffff;
+    background: linear-gradient(lightblue, pink);
+}
+   
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#bff{
+    width: 150px;
+    border: 3px solid #efb0c9;
+    border-radius: 50%;
+}
+h1, h2, p{
+    text-shadow: 2px 2px 2px black;
+}
+#age{
+    background: #efb0c9;
+    padding: 6px;
+    border-radius: 6px;
+}
+#date{
+    background: #efb0c9;
+    padding: 4px;
+    border-radius: 6px;
+    margin: 0px;
+}
+.gift-img{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("https://imgs.search.brave.com/cH4jPN3_1tCVDgLin5BVxOqYx1D7HkR7K5SG_E-SD6g/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9ydWtt/aW5pbTIuZmxpeGNh/cnQuY29tL2ltYWdl/LzMwMC8zMDAva3R4/OXNpODAvcGFydHkt/Z2lmdC1iYWcvdi81/L2QvMTAtdnRwczI3/YjAyLXBhcnR5LWJh/Zy12ZXN0dGEtcHJp/bnRlZC1vcmlnaW5h/bC1pbWFnNzZ5M2Vw/bmtzaHN6LmpwZWc_/cT05MA");
+    width: 400px;
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 50px;
+}
+.gift-img:hover {
+    background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmJlbmU5N3h2bjc3am5zeDh1MHh6ZXhkZ2RycDI1c24yZW0wOW91NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/U3D5dmP3LRWLWbSKlj/giphy.gif");
+}
+.second{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.gift-two{
+    background-image: url("https://imgs.search.brave.com/cH4jPN3_1tCVDgLin5BVxOqYx1D7HkR7K5SG_E-SD6g/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9ydWtt/aW5pbTIuZmxpeGNh/cnQuY29tL2ltYWdl/LzMwMC8zMDAva3R4/OXNpODAvcGFydHkt/Z2lmdC1iYWcvdi81/L2QvMTAtdnRwczI3/YjAyLXBhcnR5LWJh/Zy12ZXN0dGEtcHJp/bnRlZC1vcmlnaW5h/bC1pbWFnNzZ5M2Vw/bmtzaHN6LmpwZWc_/cT05MA");
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 6px solid white;
+    border-radius: 10px;
+    width: 400px;
+    background-size: cover;
+    height: 400px;
+}
+.gift-two:hover{
+    background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDExeThxYm8yOXAwemNtaWcxaGlndGlpZW05OHRsZGRodnJ0YzZxdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wuNm0Y6erUpJ6/giphy.gif");
+}
